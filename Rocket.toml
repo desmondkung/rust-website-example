@@ -1,0 +1,4 @@
+# You can use this to generate them: https://raw.githubusercontent.com/SergioBenitez/Rocket/master/examples/tls/private/gen_cert.sh
+[global.tls]
+certs = "tls/cert.pem"
+key = "tls/key.pem"
