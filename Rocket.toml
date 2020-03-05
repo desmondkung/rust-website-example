@@ -2,3 +2,6 @@
 [global.tls]
 certs = "tls/cert.pem"
 key = "tls/key.pem"
+
+[global.databases]
+sqlite_clicks = { url = "./db/db.sqlite" }
